@@ -1,9 +1,5 @@
 ## console.meme
-*para esa bonita broma esa bonita bacilada*
-
 *by [@escusado](https://twitter.com/escusado)*
-
-*this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
 ## What is this?
 A simple node/express app and a js script to print stupid stuff in the console.
@@ -69,6 +65,10 @@ console.meme('nobody-got-time', 'Write-an-extra-parameter%3F', 'Ain%27t-Nobody-g
 ## Note
 The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
 
+
+*this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
+
+
 Free GPL libre whatever use it as you like :)
 
-*I work @freshout[http://freshout.us] on @Breezi[http://breezi.com]*
+*I work [@freshout](http://freshout.us) on [@Breezi](http://breezi.com)*
