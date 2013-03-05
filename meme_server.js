@@ -8,7 +8,7 @@
 var meme_server = {
   init: function(){
     //Config
-    var port = 5000;
+    var port = process.env.PORT || 5000;
 
     var memeGeneratorCredentials = {
         username:'freshbot',
