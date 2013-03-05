@@ -11,10 +11,8 @@ console.meme = function(meme, top, bottom, size){
   if(typeof size === 'undefined'){
     size = 200;
   }
-
-  var url = serverUrl+meme+'/'+size+'/'+top+'/'+bottom;
-
-  //fix size padding thing
+  //craft url
+  var url = serverUrl+meme+'/'+size+'/'+encodeURIComponent(top)+'/'+encodeURIComponent(bottom);
 
   //css buffer
   // var css  = 'background: no-repeat url('+ url +') middle;';
@@ -26,15 +24,14 @@ console.meme = function(meme, top, bottom, size){
   size = Math.floor(size/2);
   css += 'padding: '+size+'px '+size+'px; background-size: 100%;';
 
-  var que_pedo_con_este_padding = '';
+  var bottomPadding = '';
 
   var how_many = Math.ceil(size / 14)+2; //2 more spaces just because
 
   while(how_many--){
-    que_pedo_con_este_padding += '\n';
+    bottomPadding += '\n';
   }
 
-  console.log('%c %c'+que_pedo_con_este_padding, css, 'background: none;');﻿
+  console.log('%c %c'+bottomPadding, css, 'background: none;');﻿
 
 };
-//}('not-sure-if', 'top-text', 'bottom-text');
