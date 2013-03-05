@@ -1,7 +1,7 @@
 ## console.meme
 *para esa bonita broma esa bonita bacilada*
 
-*by [@escusado](https://twitter.com/escusado) :)*
+*by [@escusado](https://twitter.com/escusado) comments: [blog-post](http://code.toily.mx/console-meme/)*
 
 *this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
