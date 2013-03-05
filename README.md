@@ -17,9 +17,8 @@ Alternatilvely you can set a size too :
 ``` javascript
 console.meme('nobody-got-time', 'Write an extra parameter?', 'Ain t Nobody got time fo that', 300);
 ```
-(No weird strings anymore; What was I thinking?!? haha)
 
-## Currently supported (feel free to add more)
+## Currently supported
 * 'y-u-no'
 * 'i-dont-always'
 * 'orly'
@@ -69,7 +68,6 @@ The image proxy server is deployed on a free Dyno on Heroku, you can deploy your
 *this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
 *Also the [MemeGenerator API](http://version1.api.memegenerator.net/)*
-
 
 Free GPL libre whatever use it as you like :)
 
