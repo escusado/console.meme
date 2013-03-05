@@ -12,13 +12,12 @@ Paste this in your console or html document.
 console.meme=function(e,t,n,r){var i="http://lit-atoll-9603.herokuapp.com/api/v1/";if(typeof r==="undefined"){r=200}var s=i+e+"/"+r+"/"+encodeURIComponent(t)+"/"+encodeURIComponent(n);var o="background-image: url("+s+");";o+="background-repeat: no-repeat;";o+="background-position: center center;";r=Math.floor(r/2);o+="padding: "+r+"px "+r+"px; background-size: 100%;";var u="";var a=Math.ceil(r/14)+2;while(a--){u+="\n"}console.log("%c %c"+u,o,"background: none;")}
 console.meme('grumpy-cat', 'paste this in my console?...', '...is this it?');
 ```
-<strike>Yes. spaces shoud be `-`. And Yes! you can pass [url encoded](http://meyerweb.com/eric/tools/dencoder/) characters.</strike>
-Not needed anymore :). (What was I thinking?!? haha)
 
 Alternatilvely you can set a size too :
 ``` javascript
 console.meme('nobody-got-time', 'Write an extra parameter%3F', 'Ain\'t Nobody got time fo that', 300);
 ```
+(No weird strings anymore; What was I thinking?!? haha)
 
 ## Currently supported (feel free to add more)
 * 'y-u-no'
