@@ -1,6 +1,6 @@
 console.meme
 ============
-by toily 2013 :)
+*by [@escusado](https://twitter.com/escusado) 2013 :) this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen*
 
 ![console.meme](http://i.imgur.com/0fh8eZk.png)
 
@@ -21,20 +21,20 @@ alternatilvely you can set a size too:
 console.meme('feel-bad', 'your-code-is-bad', 'and-you-should-feel-bad', 300);
 ```
 
-currently supported:
-'y-u-no'
-'i-dont-always'
-'orly'
-'success'
-'all'
-'too-damn'
-'good-news'
-'not-sure-if'
-'yo-dawg'
-'all-your-base'
-'fuck-you'
-'have-a-bad-time'
-'one-does-not-simply'
-'grumpy-cat'
-'it-looks-like-you'
-'feel-bad'
+Currently supported (feel free to add more):
+* 'y-u-no'
+* 'i-dont-always'
+* 'orly'
+* 'success'
+* 'all'
+* 'too-damn'
+* 'good-news'
+* 'not-sure-if'
+* 'yo-dawg'
+* 'all-your-base'
+* 'fuck-you'
+* 'have-a-bad-time'
+* 'one-does-not-simply'
+* 'grumpy-cat'
+* 'it-looks-like-you'
+* 'feel-bad'
