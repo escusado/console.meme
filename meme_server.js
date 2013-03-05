@@ -18,7 +18,7 @@ var meme_server = {
     //Dependencies
     express              = require('express');
     http_get             = require('http-get');
-    MemeGenClient        = require('memeGenClient');
+    MemeGenClient        = require('memegenclient');
 
     app = express();
     memeGenClient = new MemeGenClient(memeGeneratorCredentials);
