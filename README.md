@@ -10,7 +10,7 @@ A stupid express app and a js script to print memes in the console.
 Paste this in your console
 ```
 console.meme=function(e,t,n,r){var i="http://lit-atoll-9603.herokuapp.com/api/v1/";if(typeof r==="undefined"){r=200}var s=i+e+"/"+r+"/"+t+"/"+n;var o="background-image: url("+s+");";o+="background-repeat: no-repeat;";o+="background-position: center center;";r=Math.floor(r/2);o+="padding: "+r+"px "+r+"px; background-size: 100%;";var u="";var a=Math.ceil(r/14)+2;while(a--){u+="\n"}console.log("%c %c"+u,o,"background: none;")};
-console.meme('grumpy-cat', 'paste-this-in-my-console?...', '...is-this-it%3F');
+console.meme('grumpy-cat', 'paste-this-in-my-console%3F...', '...is-this-it%3F');
 ```
 Yes. spaces shoud be `-`. And Yes! you can pass [url encoded](http://meyerweb.com/eric/tools/dencoder/) characters.
 
