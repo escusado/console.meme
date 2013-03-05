@@ -5,17 +5,21 @@
  /* memeGenClient https://npmjs.org/~phill.rosen */
 /*----------------------------------------------*/
 
-console.meme = function(meme, top, bottom){
+console.meme = function(meme, top, bottom, size){
   var serverUrl = 'http://lit-atoll-9603.herokuapp.com/api/v1/';
 
-  var url = serverUrl+meme+'/'+top+'/'+bottom;
+  if(typeof size === 'undefined'){
+    size = 150;
+  }
+
+  var url = serverUrl+meme+'/'+size+'/'+top+'/'+bottom;
 
   console.log('>', url);
 
   //css buffer
   var css  = 'background: #fff url('+ url +') no-repeat;';
-      css += 'padding: 100px 100px';
+      css += 'padding: 100px 100px; width: 200px';
 
   console.log('%c test', css);﻿
 
-}('y u no', 'top', 'bottom');
+}('all', 'top', 'bottom');

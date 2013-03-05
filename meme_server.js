@@ -23,7 +23,7 @@ var meme_server = {
     app = express();
     memeGenClient = new MemeGenClient(memeGeneratorCredentials);
 
-    app.get('/api/v1/:meme/:top/:bottom', function(req, res){
+    app.get('/api/v1/:meme/:size/:top/:bottom', function(req, res){
       meme_server.prepareData(req, res);
     });
 
@@ -71,7 +71,7 @@ var meme_server = {
     memeGenClient.instanceCreate(params)
     .on('data', function (data) {
         data = JSON.parse(data);
-        server.generateImage(data.result.instanceImageUrl, res);
+        server.generateImage(data.result.instanceImageUrl.replace(/400x/g, req.params.size+'x'), res);
     }).exec();
 
   },
