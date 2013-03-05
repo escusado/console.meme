@@ -11,8 +11,8 @@ var meme_server = {
     var port = process.env.PORT || 5000;
 
     var memeGeneratorCredentials = {
-        username:'freshbot',
-        password:'freshbotpass'
+        username:'toily_meme_generator',
+        password:'toily_meme_generatorpass'
     };
 
     //Dependencies
