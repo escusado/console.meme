@@ -68,10 +68,12 @@ var meme_server = {
       text1 : req.params.bottom.replace(/ /g, '-')
     };
 
+    var size = req.params.size;
+
     memeGenClient.instanceCreate(params)
     .on('data', function (data) {
         data = JSON.parse(data);
-        server.generateImage(data.result.instanceImageUrl.replace(/400x/g, req.params.size+'x'+req.params.size), res);
+        server.generateImage(data.result.instanceImageUrl.replace(/400x/g, size+'x'+size), res);
     }).exec();
 
   },

@@ -9,19 +9,22 @@ console.meme = function(meme, top, bottom, size){
   var serverUrl = 'http://lit-atoll-9603.herokuapp.com/api/v1/';
 
   if(typeof size === 'undefined'){
-    size = 150;
+    size = 200;
   }
 
   var url = serverUrl+meme+'/'+size+'/'+top+'/'+bottom;
 
-  console.log('>', url);
+  //fix size padding thing
 
   //css buffer
   // var css  = 'background: no-repeat url('+ url +') middle;';
   var css  = 'background-image: url('+ url +');';
-      css += 'background-repeat: no-repeat;';
-      css += 'background-position: center center;';
-      css += 'padding: '+size+'px '+size+'px; width: '+size+'px; background-size: 100%;';
+  css += 'background-repeat: no-repeat;';
+  css += 'background-position: center center;';
+
+  //fix size
+  size = Math.floor(size/2);
+  css += 'padding: '+size+'px '+size+'px; background-size: 100%;';
 
   var que_pedo_con_este_padding = '';
 
@@ -33,4 +36,5 @@ console.meme = function(meme, top, bottom, size){
 
   console.log('%c %c'+que_pedo_con_este_padding, css, 'background: none;');﻿
 
-}('not-sure-if', 'top-text', 'bottom-text');
+};
+//}('not-sure-if', 'top-text', 'bottom-text');
