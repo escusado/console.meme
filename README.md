@@ -1,7 +1,7 @@
 ## console.meme
 *para esa bonita broma esa bonita bacilada*
 
-*by [@escusado](https://twitter.com/escusado) comments: [blog-post](http://code.toily.mx/console-meme/)*
+*by [@escusado](https://twitter.com/escusado)*
 
 *this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
@@ -62,6 +62,9 @@ console.meme('nobody-got-time', 'Write-an-extra-parameter%3F', 'Ain%27t-Nobody-g
 * 'joseph-ducreux'
 * 'so-youre-telling-me'
 * 'african-children-dancing'
+
+## Comments:
+[blog-post](http://code.toily.mx/console-meme/)
 
 ## Disclaimer
 The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
