@@ -20,7 +20,7 @@ Yes. spaces shoud be `-`. And Yes! you can pass [url encoded](http://meyerweb.co
 
 Alternatilvely you can set a size too :
 ``` javascript
-console.meme('feel-bad', 'your-code-is-bad', 'and-you-should-feel-bad', 300);
+console.meme('nobody-got-time', 'Write-an-extra-parameter%3F', 'Ain%27t-Nobody-got-time-fo-that', 300);
 ```
 
 ## Currently supported (feel free to add more)
@@ -40,6 +40,28 @@ console.meme('feel-bad', 'your-code-is-bad', 'and-you-should-feel-bad', 300);
 * 'grumpy-cat'
 * 'it-looks-like-you'
 * 'feel-bad'
+* 'nobody-got-time'
+* 'bad-luck-brian-meme'
+* 'first-world-problems-ii'
+* 'scumbag-steve'
+* 'what-if-i-told-you-meme'
+* 'san-juan-cholo'
+* 'good-guy-greg'
+* 'prepare-yourself'
+* 'stoner-stanley'
+* 'all-the-things'
+* 'conspiracy-keanu'
+* 'disaster-girl'
+* 'pleaseguy'
+* 'annoying-facebook-girl'
+* 'trollface'
+* 'skeptical-3rd-world-kid'
+* 'correction-guy'
+* 'insanity-wolf'
+* 'kill-yourself-guy'
+* 'joseph-ducreux'
+* 'so-youre-telling-me'
+* 'african-children-dancing'
 
 ## Disclaimer
 The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
