@@ -17,9 +17,20 @@ console.meme = function(meme, top, bottom, size){
   console.log('>', url);
 
   //css buffer
-  var css  = 'background: #fff url('+ url +') no-repeat;';
-      css += 'padding: 100px 100px; width: 200px';
+  // var css  = 'background: no-repeat url('+ url +') middle;';
+  var css  = 'background-image: url('+ url +');';
+      css += 'background-repeat: no-repeat;';
+      css += 'background-position: center center;';
+      css += 'padding: '+size+'px '+size+'px; width: '+size+'px; background-size: 100%;';
 
-  console.log('%c test', css);﻿
+  var que_pedo_con_este_padding = '';
 
-}('all', 'top', 'bottom');
+  var how_many = Math.ceil(size / 14)+2; //2 more spaces just because
+
+  while(how_many--){
+    que_pedo_con_este_padding += '\n';
+  }
+
+  console.log('%c %c'+que_pedo_con_este_padding, css, 'background: none;');﻿
+
+}('not-sure-if', 'top-text', 'bottom-text');

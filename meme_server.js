@@ -71,7 +71,7 @@ var meme_server = {
     memeGenClient.instanceCreate(params)
     .on('data', function (data) {
         data = JSON.parse(data);
-        server.generateImage(data.result.instanceImageUrl.replace(/400x/g, req.params.size+'x'), res);
+        server.generateImage(data.result.instanceImageUrl.replace(/400x/g, req.params.size+'x'+req.params.size), res);
     }).exec();
 
   },
