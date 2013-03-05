@@ -64,8 +64,8 @@ var meme_server = {
       languageCode : 'en',
       generatorID : memes[req.params.meme].generatorID,
       imageID : memes[req.params.meme].imageID,
-      text0 : req.params.top,
-      text1 : req.params.bottom
+      text0 : req.params.top.replace(/ /g, '-'),
+      text1 : req.params.bottom.replace(/ /g, '-')
     };
 
     memeGenClient.instanceCreate(params)
