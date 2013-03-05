@@ -15,7 +15,7 @@ console.meme('grumpy-cat', 'paste this in my console?...', '...is this it?');
 
 Alternatilvely you can set a size too :
 ``` javascript
-console.meme('nobody-got-time', 'Write an extra parameter?', 'Ain\'t Nobody got time fo that', 300);
+console.meme('nobody-got-time', 'Write an extra parameter?', 'Ain t Nobody got time fo that', 300);
 ```
 (No weird strings anymore; What was I thinking?!? haha)
 
