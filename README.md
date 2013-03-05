@@ -2,6 +2,7 @@
 *para esa bonita broma esa bonita bacilada*
 
 *by [@escusado](https://twitter.com/escusado) :)*
+
 *this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
 ![console.meme](http://i.imgur.com/0fh8eZk.png)
@@ -35,6 +36,9 @@ console.meme('feel-bad', 'your-code-is-bad', 'and-you-should-feel-bad', 300);
 * 'grumpy-cat'
 * 'it-looks-like-you'
 * 'feel-bad'
+
+## Disclaimer
+The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
 
 Free GPL libre whatever use it as you like :)
 
