@@ -1,7 +1,8 @@
-    /*----------------------------------------------*/
-   /*  Meme server v0.0.1 for console.meme requests*/
-  /*         Toily escusado@gmail.com 2013        */
- /* Para esa bonita broma, esa bonita bacilada   */
+     /*----------------------------------------------*/
+    /*  Meme server v0.0.1 for console.meme requests*/
+   /*         Toily escusado@gmail.com 2013        */
+  /* Para esa bonita broma, esa bonita bacilada   */
+ /* memeGenClient https://npmjs.org/~phill.rosen */
 /*----------------------------------------------*/
 
 var meme_server = {
@@ -21,7 +22,6 @@ var meme_server = {
 
     app = express();
     memeGenClient = new MemeGenClient(memeGeneratorCredentials);
-
 
     app.get('/api/v1/:meme/:top/:bottom', function(req, res){
       meme_server.prepareData(req, res);
