@@ -57,7 +57,8 @@ var meme_server = {
       'have-a-bad-time'     : {  generatorID : 825296  , imageID : 3786537 },
       'one-does-not-simply' : {  generatorID : 274947  , imageID : 1865027 },
       'grumpy-cat'          : {  generatorID : 1590955 , imageID : 6541210 },
-      'it-looks-like-you'   : {  generatorID : 20469   , imageID : 1159769 }
+      'it-looks-like-you'   : {  generatorID : 20469   , imageID : 1159769 },
+      'feel-bad'            : {  generatorID : 12270   , imageID : 1136171 }
     };
 
     var params = {
