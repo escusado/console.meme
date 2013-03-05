@@ -1,12 +1,10 @@
 console.meme
 ============
+para esa bonita broma esa bonita bacilada
+
 *by [@escusado](https://twitter.com/escusado) 2013 :) this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen*
 
 ![console.meme](http://i.imgur.com/0fh8eZk.png)
-
-para esa bonita broma esa bonita bacilada
-
-One does not simply log a message
 
 Usage
 ==
@@ -38,3 +36,7 @@ Currently supported (feel free to add more):
 * 'grumpy-cat'
 * 'it-looks-like-you'
 * 'feel-bad'
+
+Free GPL whatever use it as you like :)
+
+*I work @freshout[http://freshout.us] on @Breezi[http://breezi.com]*
