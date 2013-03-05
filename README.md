@@ -68,6 +68,8 @@ The image proxy server is deployed on a free Dyno on Heroku, you can deploy your
 
 *this thing uses the npm package memeGenClient by https://npmjs.org/~phill.rosen kudos man!*
 
+*Also the [MemeGenerator API](http://version1.api.memegenerator.net/)*
+
 
 Free GPL libre whatever use it as you like :)
 
