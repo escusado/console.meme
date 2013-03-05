@@ -66,7 +66,7 @@ console.meme('nobody-got-time', 'Write-an-extra-parameter%3F', 'Ain%27t-Nobody-g
 ## Comments:
 [blog-post](http://code.toily.mx/console-meme/)
 
-## Disclaimer
+## Note
 The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
 
 Free GPL libre whatever use it as you like :)
