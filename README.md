@@ -2,7 +2,7 @@
 *by [@escusado](https://twitter.com/escusado)*
 
 ## What is this?
-A simple node/express app and a js script to print stupid stuff in the console.
+A stupid express app and a js script to print memes in the console.
 
 ![console.meme](http://i.imgur.com/0fh8eZk.png)
 
@@ -62,7 +62,7 @@ console.meme('nobody-got-time', 'Write-an-extra-parameter%3F', 'Ain%27t-Nobody-g
 ## Comments:
 [blog-post](http://code.toily.mx/console-meme/)
 
-## Note
+## Notes
 The image proxy server is deployed on a free Dyno on Heroku, you can deploy your own if you like :)
 
 
