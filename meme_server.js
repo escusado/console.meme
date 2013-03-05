@@ -43,21 +43,21 @@ var meme_server = {
     var server = this;
 
     var memes = {
-      'y u no'              : {  generatorID : 2       , imageID : 166088  },
-      'i dont always'       : {  generatorID : 74      , imageID : 2485    },
+      'y-u-no'              : {  generatorID : 2       , imageID : 166088  },
+      'i-dont-always'       : {  generatorID : 74      , imageID : 2485    },
       'orly'                : {  generatorID : 920     , imageID : 117049  },
       'success'             : {  generatorID : 121     , imageID : 1031    },
       'all'                 : {  generatorID : 6013    , imageID : 1121885 },
-      'too damn'            : {  generatorID : 998     , imageID : 203665  },
-      'good news'           : {  generatorID : 1591    , imageID : 112464  },
-      'not sure if'         : {  generatorID : 305     , imageID : 84688   },
-      'yo dawg'             : {  generatorID : 79      , imageID : 108785  },
-      'all your base'       : {  generatorID : 349058  , imageID : 2079825 },
-      'fuck you'            : {  generatorID : 1189472 , imageID : 5044147 },
-      'have a bad time'     : {  generatorID : 825296  , imageID : 3786537 },
-      'one does not simply' : {  generatorID : 274947  , imageID : 1865027 },
-      'grumpy cat'          : {  generatorID : 1590955 , imageID : 6541210 },
-      'it looks like you'   : {  generatorID : 20469   , imageID : 1159769 }
+      'too-damn'            : {  generatorID : 998     , imageID : 203665  },
+      'good-news'           : {  generatorID : 1591    , imageID : 112464  },
+      'not-sure-if'         : {  generatorID : 305     , imageID : 84688   },
+      'yo-dawg'             : {  generatorID : 79      , imageID : 108785  },
+      'all-your-base'       : {  generatorID : 349058  , imageID : 2079825 },
+      'fuck-you'            : {  generatorID : 1189472 , imageID : 5044147 },
+      'have-a-bad-time'     : {  generatorID : 825296  , imageID : 3786537 },
+      'one-does-not-simply' : {  generatorID : 274947  , imageID : 1865027 },
+      'grumpy-cat'          : {  generatorID : 1590955 , imageID : 6541210 },
+      'it-looks-like-you'   : {  generatorID : 20469   , imageID : 1159769 }
     };
 
     var params = {
