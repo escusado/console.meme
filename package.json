@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node meme_server.js"
   },
   "engines": {
     "node": "0.6.11",
