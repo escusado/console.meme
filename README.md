@@ -1,3 +1,5 @@
+Note 2/Apr/2013: apparently the memegenerator api is having problems, so check before you try it. (It would be pretty easy to build a generator, maybe I add that to the node app someday). Sorry :(
+
 ## console.meme
 *by [@escusado](https://twitter.com/escusado)*
 
